@@ -5,6 +5,7 @@ lista.push("Polônia");
 lista.pop("Inglaterra");
 console.log(lista);
 
+var nome = "Matheus"
 
 
 
