@@ -6,7 +6,7 @@
         <script type="text/javascript" src="js/main.js"></script>
     </head>
     <style>
-        .backgorundcolor{
+        .background{
             background: #000000;
             background: repeating-radial-gradient(ellipse farthest-side at bottom right, #000000 0%, #4c586e 20%);
             background: -webkit-repeating-radial-gradient(ellipse farthest-side at bottom right, #000000 0%, #4c586e 20%);
@@ -17,7 +17,8 @@
 
     <body>
 
-        <h1>testando html</h1>
-
+        <button type="button" onclick="clicou()">Clique aqui</button>
+        <h3 id="agradecimento"></h3>
+        <p id="mousemove" onmousemove="trocar()" onmouseout="voltar()">Passe o mouse aqui</p>
     </body>
 </html>

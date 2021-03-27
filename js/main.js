@@ -1,16 +1,22 @@
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+}
 
-var lista = ["Alemanha", "Inglaterra", "Escócia"];
+function trocar(){
+    document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+}
+
+function voltar(){
+    document.getElementById("mousemove").innerHTML = "Passe o mouse aquis";
+}
+
+
+/*var lista = ["Alemanha", "Inglaterra", "Escócia"];
 lista.push("Polônia");
 lista.pop("Inglaterra");
 console.log(lista);
-
-var nome = "Matheus"
-
-
-
-
-
+var nome = "Matheus"*/
 //var idade = prompt("Qual sua idade");
 //if(idade >= 18);{
 
